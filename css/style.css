@@ -1,0 +1,342 @@
+* {
+    font-family: 'Tajawal', sans-serif;
+
+    box-sizing: border-box;
+}
+.container {
+    width: 90%;
+    margin: auto;
+}
+.mr-auto {
+    margin: auto;
+}
+.text-center {
+    text-align: center;
+}
+.text-left {
+    text-align: left !important;
+}
+
+body {
+    background: #eee;
+    text-align: center;
+}
+p.post {
+    background: #fff;
+}
+h1 {
+    color: #fff;
+    background: #014656;
+    padding: 10px;
+    margin: 50px auto 80px;
+    text-align: center;
+}
+
+.years {
+    overflow: hidden;
+    text-align: center;
+    margin: auto;
+    width: 78%;
+}
+.year {
+    float: left;
+    width: 48%;
+    margin: 1%;
+    background: #f9f7f6;
+    padding: 10px;
+    color: #000;
+}
+.semster {
+    margin: auto;
+    font-size: 18px;
+    width: 90%;
+    background: #fdd65d;
+    margin-bottom: 10px;
+    padding: 10px;
+    cursor: pointer;
+    transition: 0.3s all ease-in-out;
+}
+.semster:hover {
+    box-shadow: 1px 1px 3px 0px #014656;
+}
+
+p.post {
+    margin: auto;
+    margin-bottom: 40px;
+    text-align: right;
+    direction: rtl;
+}
+a {
+    text-align: center;
+    text-decoration: none;
+    color: #fff;
+    background: #507aa7;
+    padding: 4px 8px;
+    display: block;
+    max-width: 95px;
+    border-radius: 4px;
+    margin-bottom: 8px;
+    margin-top: 5px;
+}
+
+/* START POSTS PAGE STYLE */
+.subjects {
+    margin: auto;
+    padding: 10px;
+    width: 40%;
+    text-align: center;
+    background: #eee;
+}
+.subjects p {
+    padding: 10px;
+    margin: 10px;
+    cursor: pointer;
+    background: #e0e0e0;
+    transition: 0.4s all ease-in-out;
+    font-size: 20px;
+}
+.subjects p:hover {
+    background: #b7b2b2;
+}
+
+.mood {
+        background: #332e2e;
+    border-radius: 50px;
+    height: 28px;
+    width: 55px;
+    position: absolute;
+    top: 4%;
+    left: 4%;
+    display: flex;
+    align-items: center;
+    display: none;
+}
+.mood .cursor {
+        background: #eee;
+    width: 20px;
+    height: 20px;
+    border-radius: 50px;
+    position: relative;
+    left: 5px;
+    display: none;
+}
+
+/* CONTENT PAGE STYLE */
+.select button {
+    background: #507aa7;
+    border: none;
+    color: #fff;
+    padding: 10px 17px;
+    font-size: 15px;
+    font-weight: bold;
+    width: 200px;
+    margin: 10px;
+    margin-bottom: 35px;
+    transition: all 0.4s ease-in-out;
+}
+.select button.selected {
+    background: #014656;
+    box-shadow: 5px 5px 10px -4px #014656;
+}
+.select button:focus {
+    outline: none;
+}
+
+
+    .drives a {
+        display: inline-block;
+    width: 200px;
+    padding: 20px 0;
+    font-size: 19px;
+    margin: 10px 15px 30px;
+    max-width: none;
+}
+/* START RESPONSIVE DESIGN */
+
+@media only screen and (max-width: 1500px) {
+    h1 {
+        padding: 12px 50px;
+        margin: 97px auto 48px;
+        text-align: center;
+        display: inline-block;
+    }
+  .select button {
+    font-size: 18px;
+  }
+  .post {
+    background: #fff;
+    width: 75%;
+    padding: 70px 35px 50px;
+    font-size: 18px;
+  }
+  .years {
+    width: 90%;
+  }
+  .year {
+    background: #fff;
+    width: 31.333%;
+    margin: 1%;
+  }
+  .semster {
+    background: #014656;
+    color: #fff;
+  }
+  .subjects {
+    width: 45%;
+    background: #cfc8c8;
+    padding: 20px;
+  }
+  .subjects p {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 12px;
+  }
+}
+@media only screen and (max-width: 992px) {
+  body {
+    background: #eee;
+    text-align: center;
+  }
+  h1 {
+     display: inline-block;
+    margin: 95px auto 43px;
+    padding: 10px 40px;
+  }
+  .select button {
+    font-size: 18px;
+  }
+  .post {
+    background: #fff;
+    width: 80%;
+    padding:  70px 35px 50px;
+    font-size: 17px;
+  }
+  h1.heading {
+    font-size: 25px;
+  }
+
+}
+@media only screen and (max-width: 768px) {
+  body {
+    background: #eee;
+    text-align: center;
+  }
+  h1 {
+    display: inline-block;
+    padding: 8px 33px;
+    margin: 89px auto 32px;
+  }
+  .select button {
+    font-size: 17px;
+  }
+  .post {
+    background: #fff;
+    box-shadow: 1px 1px 11px -3px #817777;
+    padding: 70px 34px 50px;
+    font-size: 16px;
+    width: 90%;
+  }
+  a {
+    width: 100px;
+    padding: 6px 8px;
+    font-size: 16px;
+  }
+  h1.heading {
+    font-size: 22px;
+  }
+  .year {
+    width: 65%;
+    margin: 20px auto 12px;
+    float: none;
+  }
+
+  .year h2 {
+    font-size: 20px;
+  }
+  .subjects {
+    width: 60%;
+  }
+  .drives a {
+    display: block;
+    padding: 13px 0;
+    font-size: 19px;
+    margin: 10px auto;
+  }
+}
+@media only screen and (max-width: 576px) {
+  body {
+    background-color: #fff;
+    text-align: center;
+  }
+  .heading {
+    font-size: 16px;
+  }
+  h1 {
+    padding: 10px 20px;
+    display: inline-block;
+    font-size: 21px;
+    margin: 80px auto 35px;
+  }
+  .select {
+    margin-bottom: 40px;
+  }
+  .select button {
+    margin-bottom: 5px;
+    width: 130px;
+    display: inline-block;
+    font-size: 15px;
+  }
+  .post {
+    font-size: 15px;
+    padding: 0px 15px 50px;
+    width: 100%;
+    background: #fff;
+    box-shadow: none;
+  }
+  a {
+        width: 85px;
+    padding: 6px 8px;
+    font-size: 15px;
+  }
+  .subjects {
+    width: 80%;
+  }
+  .subjects p {
+    font-size: 15px;
+    font-weight: bold;
+    margin: 5px;
+  }
+  .years {
+    width: 90%;
+  }
+  .years .year {
+    width: 100%;
+    float: none;
+    margin-bottom: 5px;
+    background: #eee;
+  }
+  .years h2 {
+    font-size: 15px;
+  }
+  .year .semster {
+    font-size: 14px;
+    background: #014656;
+    color: #fff;
+  }
+  .container {
+    width: 100%;
+  }
+  .drives a {
+    padding: 11px 0;
+    font-size: 17px;
+    margin: 10px auto;
+    width: 170px;
+  }
+}
+
+
+   
+
+div[disabled] {
+    background: #232323;
+}

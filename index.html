@@ -1,0 +1,75 @@
+<!doctype html>
+<html>
+    <head>
+        <!-- Required meta tags -->
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        
+        <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+            <link href="https://fonts.googleapis.com/css?family=Tajawal" rel="stylesheet">
+
+        <link rel="stylesheet" href="css/style.css">
+
+        <title>EPM 2019 POSTS</title>
+    </head>
+    <body>
+        <div class="index-container">
+            <h1 class="heading">EPM 2019 Midterm & Final Posts</h1>
+
+            <div class="drives">
+                <a class="drive" href="">Dropbox 2017</a>
+                <a class="drive" href="https://drive.google.com/drive/u/0/folders/0B3vs5VXWJunkNWJ2X1JtZkc0U1E">Drive 2019</a>
+                <a class="drive" href="https://drive.google.com/drive/u/0/folders/0B3vs5VXWJunkaE1rbXRTVW9hQlk">Drive 2020</a>
+            </div>
+
+
+            <div class="years">
+                <div class="year">
+                    <h2>Second Year</h2>
+                    <div class="semster" disabled>First Semster
+                        <input type="hidden" value="year2-semster1">
+                    </div>
+                    <div class="semster">Second Semster
+                        <input type="hidden" value="year2-semster2">
+                    </div>
+                </div>
+                <div class="year">
+                    <h2>Third Year</h2>
+                    <div class="semster">First Semster
+                        <input type="hidden" value="year3-semster1">
+                    </div>
+                    <div class="semster">Second Semster
+                        <input type="hidden" value="year3-semster2">
+                    </div>
+                </div>
+                <div class="year">
+                    <h2>Fourth Year</h2>
+                    <div class="semster" disabled>First Semster
+                        <input type="hidden" value="year4-semster1">
+                    </div>
+                    <div class="semster" disabled>Second Semster
+                        <input type="hidden" value="year4-semster2">
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        
+        <script src="js/jquery-3.3.1.min.js"></script>
+        <script src="js/script.js"></script>
+        <script>
+
+            
+            /* DISABLE THE BUTTONS FOR YEARS THAT HAVE NO POSTS UNTILL NOW */
+            $(".semster").on("click", function(){
+                if(this.hasAttribute('disabled')) {
+                    alert('Sorry, there are no posts for this year now')
+                } else {
+                    var subjects_code = $(this).find('input').val();
+                    window.location.href = "pages/posts.html?subjects_code="+subjects_code;    
+                }
+            });
+            
+        </script>
+    </body>
+</html>

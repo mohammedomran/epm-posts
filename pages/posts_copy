@@ -1,0 +1,126 @@
+<!doctype html>
+<html>
+    <head>
+        <!-- Required meta tags -->
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        
+        <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+        <link rel="stylesheet" href="../css/style.css">
+
+        <title>EPM 2019 POSTS</title>
+    </head>
+    
+    <body>
+
+    <h1>POSTS SPLIT PAGE</h1>
+    <p class="poo"></p>
+
+    <script src="../js/jquery-3.3.1.min.js"></script>
+    <script>
+
+        var posts = {
+            second_year : {
+                'name':'السلام عليكم',
+                'value':'444'
+            },
+            third_year : {
+
+                first_term : {
+                    machines : {
+                        'post_code' : 'machines_31',
+                        'content' : `'name':<p class = "post">
+
+                    السلام عليكم يا شباب.
+
+                    الحمد لله عدا 4 مواد علي خير وفاضل مادتين بإذن الله.
+                    <br>
+                    الماده من 100 درجه: 
+                    1- 70 فاينل ( 36 درجه لجزء دكتور ساميه و 36 درجه لجزء دكتور عبد القادر( فيه درجتين بونص ) )
+                    2- 30 اعمال سنه.
+                    <br>
+                    في عندك حلين علشان تذاكر : 
+                    لو انت مذاكر جزء دكتور عبد القادر قبل كدا ...فا يفضل تبدأ بجزء دكتور ساميه الاول وبعد كدا تذاكر جزء دكتور عبد القادر طالما كنت مذاكر هقبل كدا ...لكن لو انت ماذكرتوش قبل كدا فا ابدأ بيه في الاول.
+                    <br>
+
+                    اولا جزء دكتور ساميه:
+                    <br>
+                    1- ابدأ علي طول بملزمه باشمهندس رمضان احفظ القوانين واعرف ازاي بيستخدمها واحفظ حالات المسائل وخش علي ال 3 امتحانات المحلوله اللي في الملزمه ( امتحان 2007 و 2010 و 2014 ) :
+                    <br>
+                    <a href="https://drive.google.com/open?id=1rrCdx836wIg96E7UiBkXmWyt2P4rnmBW&fbclid=IwAR2_6R9G67t-dtD4fBxJ2miZ_iXpsAS9dy-cWg89FlJxX1q51JZYjXEtheY">Download</a>
+                        <a href="">Download</a>
+                    2-بالنسبه للنظري بتاع دكتور ساميه لازم تذاكر المحاضرات كويس بس ممكن تفتح الامتحانات قدامك وتقعد تجاوب الاسأله النظري الموجوده في الامتحان من المحاضره وتقعد تحفظها ( وحل امتحانات فيها كتير علشان تجمع كل الاسأله النظري) :
+
+                    لينك المحاضرات: 
+                    <a href="https://drive.google.com/open?id=0B_yxWOic2tcBdHhqdlBfSDVsbjg&fbclid=IwAR2BHE9X0XwiDO-xpjAme25y2k_o3DcXNFmco54TIkjD3aL9wOhwO751DpM">Download</a>
+                    <br>
+                    بعد كدا هتدخل علي جزء دكتور عبد القادر :
+
+                    1- هتمسك ملزمه باشمهندس رمضان تحلها كلها ( فيها حل الشيت ) وركز علي اخر 3 امثله في الملزمه علشان مهمين جدا: 
+                    <a href="https://drive.google.com/open?id=1ghb6Aew9yvd3Qxe1bOpSeTBeOB2bLyHI&fbclid=IwAR0c8dJl1nN6D9pxcbwN9GGirtlW-wR4NPvG6v_dC7flIQRf5zaIt9ucWeI">Download</a>
+                    2- بعد كدا لازم تذاكر المحاضرات وخاصه اخر محاضره علشان كلها نظري: 
+                    <a href="https://l.facebook.com/l.php?u=https%3A%2F%2Fdrive.google.com%2Fopen%3Fid%3D11frpDGK5OL0fBDOIGV8SyM8buT903miA%26fbclid%3DIwAR2CIcDDapyroyxSM_4mGU7W6UCSZwgp7tSfMqzIEce4EHoD_HpyH8p5Bbc&h=AT29B8ZhQtS5hcQQX8v6b2gltELRWqAbqSIi9BGXKT5SfuLZYi0sj6H9cCJNFhNTlCOWcgpLK5dLBEVBTyLl7MRWBRDZti-kPKrZdyHex2kr4dx90HpKLdHzaJRikXgIno5w2dHIpY7N4eakEfjipfrq82xuwJYM0eg">Download</a>
+                    <br>
+                    في علي الدرايف كل الشيتات وحلولها هتلاقوه في الملازم اللي علي الدرايف ( بس شيتات دكتور ساميه مالهاش لازمه ) بس اللي حابب يحلها يحلها.
+                    <br>
+                    ان شاء الله في ملزمه مراجعه نزلت النهارده في السنتر بإذن الله في خلال ساعتين هتكون نزلت واللينك بتاعها هضيفه هنا :
+
+                    في حلول امتحانات احمد محمد سعيد حلها هينزل اللينك بتاعها هنا بردو:
+
+                    اخيراً ...حلو امتحانات علي قد ما تقدرو لأن دكتور ساميه بتحب بتجيب من الامتحانات القديه بتاعتها .
+                    <br>
+
+                    شوية لينكات ممكن تفيد 
+                    الدرايف بتاعنا: 
+                    <a href="https://l.facebook.com/l.php?u=https%3A%2F%2Fdrive.google.com%2Fdrive%2Fu%2F1%2Ffolders%2F0B3vs5VXWJunkUlJLaF9hRk4tTEk%3Ffbclid%3DIwAR1O3JbZO47VdWKah80a53mf1hDVVlEcXzi1lGaSoGwg2ySvduXQwG-gjkY&h=AT0sMLo965OrRuJbiKukuHshnpEmk1U490xy-l196BbEDk-zLjfYuS0DxVqpHjtQ0M5XhX55sBxMKbw5HFT2dPAzdDsXbJU8JahM4TowDe8Yvw0z1Gqp5DcLXNQ4h5vMMtXltRjltpUTJYJCZisRGALIB4H9gRDGXEw">Download</a>
+                    - الجدول 
+                    <a href="https://drive.google.com/file/d/0B335w-0lBek1TnNtRHEzZUVLSk0/view?usp=drivesdk&fbclid=IwAR1p4CB3CEh8UJcwE5NgTOr-AAvp__yA9pOLgJ5Chk24p7ox6pbeboUl_U8">Download</a>
+                    - درايف السنه اللى فاتت 2018 .. عليه شوية ملازم
+                    <a href="https://drive.google.com/drive/folders/0BwqPA_1qcQKtNFZoelhRMlY0MXc?fbclid=IwAR2xnfcS0GJG-YDy4UbeAGCsm5BYaLGlgd4Bfqn6-YSzDMireql-kjjbxS8">Download</a>
+                    - لينك بلاك هورس 2018
+                    <a href="https://drive.google.com/drive/folders/0BwPsOXnlXBvYNS1TWHRQX0FGSnc?fbclid=IwAR1DK1R9TUzL2PKQjQtoprIhnf0M-BF-GJ_WOap6sIzO-Hopi6uLQaDrK6U">Download</a>
+                    - درايف 2017 الترم الاول 
+                    <a href="https://drive.google.com/drive/folders/0B4mmyLX0DsQdbnl6NVI3SzFNSm8?fbclid=IwAR26W3sKCfOQpuWh_15cHAzjVsm9b-91Fivv2CYSsfBxMtq-DpztQ7ZDhoQ">Download</a>
+                    - بلاك هورس 2017
+                    <a href="https://drive.google.com/drive/folders/0B5gsgC8GpaomTVBKcG1xR1U4Mms?fbclid=IwAR2F7gqre3tfxkUpHi2QEv-ghyCW_7hzgT54_i7EvJP3ka2Wqc8j6bEYyWA">Download</a>
+                    - الميديا فاير لانيرجيا 2016 الترم الأول والثاني 
+                    <a href="https://www.mediafire.com/folder/t28pxo7nghi9h,3xmg448ahgfl1/shared?fbclid=IwAR3oFtOfpCikNXe3looRvR622zvSrQgl2V7vp5wdv8MXJVByfh_DgBEaGL0#myfiles">Download</a>
+                    - كشاكيل عمرو وهبه: 
+                    <a href="https://drive.google.com/drive/folders/0B94aTXqVc_YzMHdhUFpsNnB4Zms?fbclid=IwAR0EkY0OnZAqJPAfz4L26Ds8rlZ8gzcEOTBuVy-HQjBi4YXzEzB7EIYD38k">Download</a>
+                    - YouTube channel:
+                    <a href="https://youtu.be/zEUZ1Lu9X7o?fbclid=IwAR1Q9XS-Aj7oK3yfqotChuwZK9aIMkJ-XsLflFgC7exwPe3ZaV8a8U5yp3A">Download</a>
+                    </p>        `,
+                    'value':'894',
+                    }   
+                }, 
+                second_term : {
+
+                }
+
+            },
+            fourth_year : {
+                'name':'epm_888',
+                'value':'894'   
+            },
+        };
+
+        function getQueryVariable(variable)
+        {
+           var query = window.location.search.substring(1);
+           var vars = query.split("&");
+           for (var i=0;i<vars.length;i++) {
+                   var pair = vars[i].split("=");
+                   if(pair[0] == variable){return pair[1];}
+           }
+           return(false);
+        }
+        var x = getQueryVariable('post_code');
+        if (x == 12) {
+            var x = posts.third_year.first_term["name"];
+            $(".poo").html(x);
+        }
+
+    </script>
+
+    </body>
+</html>

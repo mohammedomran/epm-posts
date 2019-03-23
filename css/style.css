@@ -143,8 +143,8 @@ a {
 }
 
 
-    .drives a {
-        display: inline-block;
+.drives a {
+    display: inline-block;
     width: 200px;
     padding: 20px 0;
     font-size: 19px;
@@ -152,6 +152,10 @@ a {
     max-width: none;
     background: #014656;
 }
+div[disabled] {
+    background: #232323!important;
+}
+
 /* START RESPONSIVE DESIGN */
 
 @media only screen and (max-width: 1500px) {
@@ -338,6 +342,3 @@ a {
 
    
 
-div[disabled] {
-    background: #232323;
-}

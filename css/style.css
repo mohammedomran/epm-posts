@@ -151,6 +151,7 @@ a {
     margin: 10px 15px 30px;
     max-width: none;
     background: #014656;
+    vertical-align: middle;
 }
 div[disabled] {
     background: #232323!important;
